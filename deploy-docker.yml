@@ -12,9 +12,8 @@
         state: present
     - name: Install docker-ce
       apt:
-        name: docker-ce
+        name: docker-compose
         state: present
-        update_cache: true
     - name: start docker
       service:
         name: docker
