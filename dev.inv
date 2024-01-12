@@ -1,2 +1,2 @@
 [dev]
-client ansible_host=192.168.128.151
+192.168.128.151 ansible_user=ihsan
