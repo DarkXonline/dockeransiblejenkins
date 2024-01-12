@@ -10,7 +10,7 @@
       apt:
         name: docker
         state: present
-    - name: Install docker-ce
+    - name: Install docker-compose
       apt:
         name: docker-compose
         state: present
