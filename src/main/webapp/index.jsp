@@ -7,7 +7,7 @@
         img {
             max-width: 100%;
             height: auto;
-            width: 300px; /* Set the desired width */
+            width: 500px; /* Set the desired width */
             border: 1px solid #ddd; /* Add a border for better visibility */
             margin-bottom: 10px;
         }
