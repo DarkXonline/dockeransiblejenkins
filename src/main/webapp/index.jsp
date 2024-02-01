@@ -3,6 +3,20 @@
 <html>
 <head>
     <title>Random Images Generator</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 300px; /* Set the desired width */
+            border: 1px solid #ddd; /* Add a border for better visibility */
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
     <script>
         function generateRandomImage() {
             // Reload the page to generate a new random image
@@ -27,7 +41,7 @@
         String randomImageUrl = imageUrls[randomIndex];
     %>
 
-    <%-- Display the random image --%>
+    <%-- Display the random image with CSS styling --%>
     <img src="<%= randomImageUrl %>" alt="Random Image">
 
     <br>
