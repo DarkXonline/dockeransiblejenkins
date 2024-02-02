@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Random Images Generator</title>
+    <title>Ihsan's Random Images Generator WOW!</title>
     <style>
         img {
             max-width: 100%;
