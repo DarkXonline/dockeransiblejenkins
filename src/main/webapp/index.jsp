@@ -25,7 +25,7 @@
     </script>
 </head>
 <body>
-    <h1>Random Images</h1>
+    <h1>Ihsan's Random Images Generator WOW!</h1>
 
     <%-- Java code to generate random image URLs --%>
     <% 
